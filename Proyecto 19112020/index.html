@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <link rel="stylesheet" href="estilo.css"> 
+<title>Formulario</title>
+
+</head>
+ 
+<body>
+  <section class="form-section">
+    <h1>Bienvenido</h1>
+
+    <div class="form-wrapper">
+      <form >
+        <div class="input-block">
+          <label for="login-email">Nombre</label>
+          <input type="nombre" id="nombre" />
+        </div>
+        <div class="input-block">
+          <label>Apellidos</label>
+          <input type="text" id="edad" />
+        </div>
+
+        <div class="input-block">
+          <label>Edad</label>
+          <input type="text" id="edad" />
+        </div>
+        <div class="input-block">
+
+       <!--
+<label>Sexo</label>
+          
+         </label><input type="checkbox" name="sexo" value="1">Masculino
+
+       <input type="checkbox" name="sexo" value="2">    Femenino
+
+        </div>
+        -->
+        <li id="li_gender" class="form_fields">
+          <label for="name" id="gender_label" class="label">Género:</label>
+          <div id="radio_gender">   
+              <label class="gender_option"><input type="radio" name="gender" value="hombre" class="gender_input"> Hombre:</label>
+              <label class="gender_option"><input type="radio" name="gender" value="mujer" class="gender_input"> Mujer:</label>
+          </div>
+      </li>
+
+
+
+        <div class="input-block">
+          <label>Correo</label>
+          <input type="text" id="email" required/>
+        </div>
+         
+       
+
+        <button type="submit" class="btn-login" onclick="hizoClick()">Enviar</button>
+      </form>
+    </div>
+  </section>
+<ul class="squares">
+</ul>
+
+  <script src="script.js">  
+  
+  
+  
+  
+  </script>
+
+</body>
+
+</html>
+
+
+
